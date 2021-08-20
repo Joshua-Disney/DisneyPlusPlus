@@ -12,11 +12,12 @@
  */
 
 function squareSum(numbers) {
-let total = 0
-numbers.forEach(i => {
-  total += i**2
-})
-return total
+  let total = 0
+  numbers.forEach(i => {
+    total += i ** 2
+  })
+  return total
 }
 
-module.export = { squareSum };
+
+module.exports = { squareSum };
