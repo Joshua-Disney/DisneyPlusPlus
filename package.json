@@ -1,0 +1,14 @@
+{
+  "name": "DisneyPlusPlus",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "^15.0.9"
+  }
+}
