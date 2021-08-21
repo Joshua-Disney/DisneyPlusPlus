@@ -1,5 +1,5 @@
 /**
- * @name Square(n) Sum
+ * @name Square Sum
  *
  * @description
  *  Complete the square sum function so that it squares each number
