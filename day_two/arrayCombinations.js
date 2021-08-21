@@ -19,6 +19,22 @@
 
 function arrayCombinations(numbers) {
   let total = 0
+  for (let i = 0; i < numbers.length; i++) {
+    console.log(`numbers[${i}]: `, numbers[i])
+    let unique = {}
+    let count = 0
+    for (let j = 0; j < numbers[i].length; j++) {
+      
+      if (unique[numbers[i][j]]) {
+        
+      }
+      else {
+        unique[numbers[i][j]] = 1
+        count += 1
+      }
+    }
+    total *= count
+  }
   return total
 }
 
