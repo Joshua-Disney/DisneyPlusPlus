@@ -10,13 +10,16 @@
  */
 
 function sumMix(array) {
- let sum = 0
+  // Initial solution
+//  let sum = 0
 
- for (let i = 0; i < array.length; i++) {
-   sum += parseInt(array[i])
- }
+//  for (let i = 0; i < array.length; i++) {
+//    sum += parseInt(array[i])
+//  }
 
- return sum
+//  return sum
+
+return array.reduce((sum, currentVal) => sum + parseInt(currentVal), 0)
 }
 
 module.exports = { sumMix } 
