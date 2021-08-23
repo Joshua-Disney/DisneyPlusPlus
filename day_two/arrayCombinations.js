@@ -18,9 +18,8 @@
  */
 
 function arrayCombinations(numbers) {
-  let total = 0
+  let total = 1
   for (let i = 0; i < numbers.length; i++) {
-    console.log(`numbers[${i}]: `, numbers[i])
     let unique = {}
     let count = 0
     for (let j = 0; j < numbers[i].length; j++) {
