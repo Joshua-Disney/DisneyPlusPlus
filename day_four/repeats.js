@@ -9,9 +9,27 @@
  */
 
 function repeats(array) {
-// Take array
-// check amount of times integer appears
-// add special amount together
+
+let sum = 0;
+let check = {};
+
+for (let i = 0; i < array.length; i++) {
+  if (check[array[i]]) {
+    delete check[array[i]]
+  }
+  else {
+    check[array[i]] = 1
+  }
+}
+
+for (let i = 0; i < array.length; i++) {
+  if (check[array[i]]) {
+    sum += array[i]
+  }
+}
+
+return sum
+
 }
 
 module.exports = { repeats };
